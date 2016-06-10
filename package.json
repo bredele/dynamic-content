@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-content",
+  "version": "1.0.0",
+  "description": "dynamic content without any line of javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'"
+  },
+  "keywords": [
+    "dynamic",
+    "content"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT"
+}
