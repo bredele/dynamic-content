@@ -15,5 +15,9 @@
     "content"
   ],
   "author": "Olivier Wietrich",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "hyperstream": "^1.2.2"
+  }
 }
