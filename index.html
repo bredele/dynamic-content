@@ -3,10 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Dynamic content</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      order: 2
+    }
+
+    .main {
+      order: 1
+    }
+  </style>
 </head>
 <body>
-  <header></header>
+  <header>header</header>
+  <footer>footer</footer>
   <ul class="main"></ul>
-  <footer></footer>
 </body>
 </html>
