@@ -30,7 +30,7 @@ function users() {
   stream._read = function() {};
   var names = ['trump',  'clinton', 'obama', 'hollande'];
   var interval = setInterval(() => {
-    stream.push(names.pop());
+    stream.push('<li>' + names.pop() + '</li>');
     if(!names.length) {
       clearInterval(interval);
       stream.push(null);
